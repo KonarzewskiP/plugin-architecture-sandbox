@@ -1,3 +1,3 @@
-//module softdrink {
-//    exports com.agiledeveloper.softdrink;
-//}
+module softdrink {
+    exports com.agiledeveloper.softdrink;
+}
