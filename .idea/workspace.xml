@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2afb088-f462-4842-8685-925842565b4d" name="Changes" comment="Serviceloader can see Coke and DietCoke">
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cocola/src/main/java/module-info.java" beforeDir="false" />
+    <list default="true" id="d2afb088-f462-4842-8685-925842565b4d" name="Changes" comment="clean redundant code">
+      <change afterPath="$PROJECT_DIR$/pepsico/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepsico/src/main/java/com/agiledeveloper/pepsi/DietPepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepsico/src/main/java/com/agiledeveloper/pepsi/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepsico/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/agiledeveloper/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/agiledeveloper/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cocola/src/main/java/com/agiledeveloper/coke/Coke.java" beforeDir="false" afterPath="$PROJECT_DIR$/cocola/src/main/java/com/agiledeveloper/coke/Coke.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softdrink/src/main/java/module-info.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/util/ServiceLoader.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="2brRcGdeQpcMH70T2RfOd6NGPjL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,16 +48,24 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "last_opened_file_path": "C:/Pawel/Coding/wlasne/plugin-architecture-sandbox/cocola/src/main/java",
+    "last_opened_file_path": "C:/Pawel/Coding/wlasne/plugin-architecture-sandbox/pepsico/src/main/java",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Pawel\Coding\wlasne\plugin-architecture-sandbox\pepsico\src\main\java" />
+      <recent name="C:\Pawel\Coding\wlasne\plugin-architecture-sandbox\pepsico\src\main" />
       <recent name="C:\Pawel\Coding\wlasne\plugin-architecture-sandbox\cocola\src\main\java" />
       <recent name="C:\Pawel\Coding\wlasne\plugin-architecture-sandbox\client\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.agiledeveloper.pepsi" />
     </key>
   </component>
   <component name="RunManager">
@@ -87,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707051149371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="clean redundant code">
+      <created>1707051358537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707051358537</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Serviceloader can see Coke and DietCoke" />
-    <option name="LAST_COMMIT_MESSAGE" value="Serviceloader can see Coke and DietCoke" />
+    <MESSAGE value="clean redundant code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean redundant code" />
   </component>
 </project>
